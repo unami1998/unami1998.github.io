@@ -62,7 +62,7 @@ hr { border-top: 4px solid #CCC; }
 
 .grid-container {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: repeat(3, 1fr); /* 3 columns */
 	gap: 20px;
 }
 .grid-item {
