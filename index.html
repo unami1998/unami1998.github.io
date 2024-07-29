@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>바꼈는지 다시 확인</title>
+    <title>백엔드 개발자 유나미 포트폴리오</title>
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/specimen/Kumbh+Sans -->
     <link rel="stylesheet" href="fontawesome/css/all.min.css">  <!-- https://fontawesome.com/-->  
     <link rel="stylesheet" href="css/magnific-popup.css">       <!-- https://dimsemenov.com/plugins/magnific-popup/ -->
@@ -30,8 +30,9 @@ https://templatemo.com/tm-555-upright
                     </button>
                     <div>
                         <div class="tm-brand-box">
-                            <h1 class="tm-brand">유나미</h1>
-                        </div>                
+                            <img src="img/img-01.jpg"  class="tm-brand"/>
+
+                        </div>
                         <ul id="tm-main-nav">
                             <li class="nav-item">                                
                                 <a href="#home" class="nav-link current">
@@ -48,10 +49,17 @@ https://templatemo.com/tm-555-upright
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="#about" class="nav-link">
+                                <a href="#portfolio" class="nav-link">
                                     <div class="triangle-right"></div>
                                     <i class="fas fa-user-friends nav-icon"></i>
-                                    Projects
+                                    Portfolio
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contact" class="nav-link">
+                                    <div class="triangle-right"></div>
+                                    <i class="fas fa-user-friends nav-icon"></i>
+                                    Contact
                                 </a>
                             </li>
                         </ul>
@@ -62,9 +70,10 @@ https://templatemo.com/tm-555-upright
             <div class="tm-main">
                 <!-- Home section -->
                 <div class="tm-section-wrap">
-                    <div class="tm-parallax" data-parallax="scroll" data-image-src="img/img-01.jpg"></div>                   
+                    <div class="tm-parallax" data-parallax="scroll" data-image-src="img/img-01.jpg"></div>
                     <section id="home" class="tm-section">
-                        <h2 class="tm-text-primary">유나미의 블로그입니다, 반갑습니다</h2>
+                        <h2 class="tm-text-primary">Introduction</h2>
+                            <p>안녕하세요 백엔드 개발자 유나미입니다</p>
                         <hr class="mb-5">
                         <div class="row">
                             <div class="col-lg-6 tm-col-home mb-4">
@@ -78,24 +87,12 @@ https://templatemo.com/tm-555-upright
                                         2022.12~2023.06   SaaS  개발팀 근무         <br>
                                         2023.12.~2024.07  모비딕 백엔드 개발팀
                                     </p>
-                                </div>                                
+                                </div>
                             </div>
                             <div class="col-lg-6 tm-col-home mb-4">
                                 <div class="tm-text-container">
-                                    <div class="tm-icon-container mb-5 mr-0 ml-auto">
-                                        <i class="fas fa-broadcast-tower fa-4x tm-text-primary"></i>
-                                    </div>                                 
-                                    <p>
-                                        <b>Channel </b><br>
-                                        이름 : 유나미<br>
-                                        Mobile : 010-2655-0359<br>
-                                        E-mail : fpahs927@naver.com<br>
-                                        Address : 부산진구 양정동<br>
-                                        Github - https://github.com/unami1998<br>
-                                        Notion - <a href="https://www.notion.so/AWS-c92e84196f014f46837758970275cebe">노션주소</a>
-                                    </p>
                                     <div class="text-right">
-                                        <a href="#gallery" class="btn btn-primary tm-btn-next">Next Page</a>
+                                        <a href="#Skills" class="btn btn-primary tm-btn-next">Next Page</a>
                                     </div>                                    
                                 </div>
                             </div>
@@ -104,7 +101,7 @@ https://templatemo.com/tm-555-upright
                         <!-- Gallery section -->
                         <div class="row tm-row-home">
                             <div class="tm-parallax" data-parallax="scroll" data-image-src="img/img-02.jpg"></div>
-                            <section id="gallery" class="tm-section">
+                            <section id="Skills" class="tm-section">
                                 <h2 class="tm-text-primary">✹보유 기술✹</h2>
                                 <div class="tm-gallery">
                                     <div class="col-lg-6 tm-col-home mb-4">
@@ -144,6 +141,7 @@ https://templatemo.com/tm-555-upright
 
                         <div class="row tm-row-home">                            
                             <div class="tm-col-home tm-col-home-l">
+                                <section id="portfolio" class="tm-section">
                                 <p>근무 경력</p>
                                 <div class="media mb-4">
                                     <i class="fas fa-scroll fa-4x tm-post-icon tm-text-primary"></i>
@@ -163,11 +161,11 @@ https://templatemo.com/tm-555-upright
                                 <div class="media mb-4">
                                     <i class="fas fa-cloud-sun fa-4x tm-post-icon tm-text-primary"></i>
                                     <div class="media-body">
-                                        <a href="#" class="d-block mb-2 tm-text-primary tm-post-link">22 September 2020</a>  
+                                        <a href="#" class="d-block mb-2 tm-text-primary tm-post-link">개인프로젝트</a>
                                         <p>
-                                            You are not allowed to re-distribute this template as a ZIP file 
-                                            on any template collection website for the template download purpose. 
-                                            Please contact us for more information.
+                                            JPA를 사용해 학생들을 위한 게시판 기능과 하루동안 좋아요를 많이 눌린 게시글 업로드,
+                                            아이템 구매 기능을 구현했습니다.<br>
+                                            <a href="https://github.com/unami1998/homeLearn">소스코드 보러가기</a>
                                         </p>
                                     </div>                                    
                                 </div>
@@ -191,300 +189,26 @@ https://templatemo.com/tm-555-upright
                 <!-- About section -->
                 <div class="tm-section-wrap">
                     <div class="tm-parallax" data-parallax="scroll" data-image-src="img/img-03.jpg"></div>
-                    <section id="about" class="tm-section">
-                        <h2 class="tm-text-primary">아이고 힘들어라 씨발 </h2>
+                    <section id="contact" class="tm-section">
+                        <h2 class="tm-text-primary">Contact me </h2>
                         <hr class="mb-5">
-                        
-                        <div class="row tm-row-about">
-                            <div class="tm-col-about tm-col-about-l">
-                                <p class="mb-4">
-                            If you want to support TemplateMo, you can contribute <a rel="sponsored" href="https://paypal.me/templatemo" target="_parent">a small donation via <strong>PayPal</strong></a>. This will be very helpful. Thank you. </p>
-                                <p class="mb-4">
-                                    Aliquam ornare varius erat vel aliquet. Proin ac neque a tortor tristique semper eget eget sapien. Morbi vitae diam a odio lobortis mattis sed nec justo. 
-                                </p>
-                                <p class="mb-4">
-                                    Suspendisse sagittis tortor vel turpis aliquet, vitae molestie erat luctus.
-                                </p>
-                            </div>
-                            <div class="tm-col-about tm-col-about-r">
-                                <img src="img/img-about-01.jpg" alt="Image" class="img-fluid mb-5 tm-img-about">
-                                <p>
-                                    Duis fringilla eget purus luctus sodales. Sed auctor odio quis ligula dignissim efficitur vitae vitae quam.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="mt-5">
-                            <div class="tm-carousel">
-                                <div class="tm-carousel-item">
-                                    <figure class="effect-honey mb-4">
-                                        <img src="img/about-01.jpg" alt="Featured Item">
-                                        <figcaption>
-                                            <ul class="tm-social">
-                                                <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
-                                                <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
-                                            </ul>
-                                        </figcaption>
-                                    </figure>
-                                    <div class="tm-about-text">
-                                        <h3 class="mb-3 tm-text-primary tm-about-title">Calvin Walk</h3>
-                                        <p>Aliquam efficitur, velit ut aliquet molestie, nulla dolor faucibus neque, quis hendrerit.</p>
-                                        <h4 class="tm-text-secondary tm-about-subtitle">Founder and CEO</h4>
-                                    </div>
-                                </div>
-                                
-                                <div class="tm-carousel-item">
-                                    <figure class="effect-honey mb-4">
-                                        <img src="img/about-02.jpg" alt="Featured Item">
-                                        <figcaption>
-                                            <ul class="tm-social">
-                                                <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
-                                                <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
-                                            </ul>
-                                        </figcaption>
-                                    </figure>
-                                    <div class="tm-about-text">
-                                        <h3 class="mb-3 tm-text-primary tm-about-title">Jenifer Soft</h3>
-                                        <p>This is a carousel for a list of 10 team members. Each member image hover has 3 social icons.</p>
-                                        <h4 class="tm-text-secondary tm-about-subtitle">Managing Director</h4>
-                                    </div>
-                                </div>
-
-                                <div class="tm-carousel-item">
-                                    <figure class="effect-honey mb-4">
-                                        <img src="img/about-03.jpg" alt="Featured Item">
-                                        <figcaption>
-                                            <ul class="tm-social">
-                                                <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
-                                                <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
-                                            </ul>
-                                        </figcaption>
-                                    </figure>
-                                    <div class="tm-about-text">
-                                        <h3 class="mb-3 tm-text-primary tm-about-title">David Rock</h3>
-                                        <p>Aliquam efficitur, velit ut aliquet molestie, nulla dolor faucibus neque, quis hendrerit.</p>
-                                        <h4 class="tm-text-secondary tm-about-subtitle">Financial Officer</h4>
-                                    </div>
-                                </div>
-
-                                <div class="tm-carousel-item">
-                                    <figure class="effect-honey mb-4">
-                                        <img src="img/about-01.jpg" alt="Featured Item">
-                                        <figcaption>
-                                            <ul class="tm-social">
-                                                <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
-                                                <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
-                                            </ul>
-                                        </figcaption>
-                                    </figure>
-                                    <div class="tm-about-text">
-                                        <h3 class="mb-3 tm-text-primary tm-about-title">Calvin Second</h3>
-                                        <p>Aliquam efficitur, velit ut aliquet molestie, nulla dolor faucibus neque, quis hendrerit.</p>
-                                        <h4 class="tm-text-secondary tm-about-subtitle">Senior Director</h4>
-                                    </div>
-                                </div>
-                                
-                                <div class="tm-carousel-item">
-                                    <figure class="effect-honey mb-4">
-                                        <img src="img/about-02.jpg" alt="Featured Item">
-                                        <figcaption>
-                                            <ul class="tm-social">
-                                                <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
-                                                <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
-                                            </ul>
-                                        </figcaption>
-                                    </figure>
-                                    <div class="tm-about-text">
-                                        <h3 class="mb-3 tm-text-primary tm-about-title">Jenifer Second</h3>
-                                        <p>This is a carousel for a list of 10 team members. Each member image hover has 3 social icons.</p>
-                                        <h4 class="tm-text-secondary tm-about-subtitle">Accounting Officer</h4>
-                                    </div>
-                                </div>
-
-                                <div class="tm-carousel-item">
-                                    <figure class="effect-honey mb-4">
-                                        <img src="img/about-03.jpg" alt="Featured Item">
-                                        <figcaption>
-                                            <ul class="tm-social">
-                                                <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
-                                                <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
-                                            </ul>
-                                        </figcaption>
-                                    </figure>
-                                    <div class="tm-about-text">
-                                        <h3 class="mb-3 tm-text-primary tm-about-title">David Second</h3>
-                                        <p>Aliquam efficitur, velit ut aliquet molestie, nulla dolor faucibus neque, quis hendrerit.</p>
-                                        <h4 class="tm-text-secondary tm-about-subtitle">Financial Assistant</h4>
-                                    </div>
-                                </div>
-
-                                <div class="tm-carousel-item">
-                                    <figure class="effect-honey mb-4">
-                                        <img src="img/about-01.jpg" alt="Featured Item">
-                                        <figcaption>
-                                            <ul class="tm-social">
-                                                <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
-                                                <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
-                                            </ul>
-                                        </figcaption>
-                                    </figure>
-                                    <div class="tm-about-text">
-                                        <h3 class="mb-3 tm-text-primary tm-about-title">Calvin Third</h3>
-                                        <p>Aliquam efficitur, velit ut aliquet molestie, nulla dolor faucibus neque, quis hendrerit.</p>
-                                        <h4 class="tm-text-secondary tm-about-subtitle">Designer</h4>
-                                    </div>
-                                </div>
-                                
-                                <div class="tm-carousel-item">
-                                    <figure class="effect-honey mb-4">
-                                        <img src="img/about-02.jpg" alt="Featured Item">
-                                        <figcaption>
-                                            <ul class="tm-social">
-                                                <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
-                                                <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
-                                            </ul>
-                                        </figcaption>
-                                    </figure>
-                                    <div class="tm-about-text">
-                                        <h3 class="mb-3 tm-text-primary tm-about-title">Jenifer Third</h3>
-                                        <p>This is a carousel for a list of 10 team members. Each member image hover has 3 social icons.</p>
-                                        <h4 class="tm-text-secondary tm-about-subtitle">Program Director</h4>
-                                    </div>
-                                </div>
-
-                                <div class="tm-carousel-item">
-                                    <figure class="effect-honey mb-4">
-                                        <img src="img/about-03.jpg" alt="Featured Item">
-                                        <figcaption>
-                                            <ul class="tm-social">
-                                                <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
-                                                <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
-                                            </ul>
-                                        </figcaption>
-                                    </figure>
-                                    <div class="tm-about-text">
-                                        <h3 class="mb-3 tm-text-primary tm-about-title">David Three</h3>
-                                        <p>Aliquam efficitur, velit ut aliquet molestie, nulla dolor faucibus neque, quis hendrerit.</p>
-                                        <h4 class="tm-text-secondary tm-about-subtitle">Financial Assistant</h4>
-                                    </div>
-                                </div>
-
-                                <div class="tm-carousel-item">
-                                    <figure class="effect-honey mb-4">
-                                        <img src="img/about-01.jpg" alt="Featured Item">
-                                        <figcaption>
-                                            <ul class="tm-social">
-                                                <li><a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
-                                                <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
-                                            </ul>
-                                        </figcaption>
-                                    </figure>
-                                    <div class="tm-about-text">
-                                        <h3 class="mb-3 tm-text-primary tm-about-title">Calvin Four</h3>
-                                        <p>Aliquam efficitur, velit ut aliquet molestie, nulla dolor faucibus neque, quis hendrerit.</p>
-                                        <h4 class="tm-text-secondary tm-about-subtitle">Media Partner</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                            <p>이름 : 유나미 <br>
+                                Mobile : 010-2655-0359<br>
+                                E-mail : fpahs927@naver.com<br>
+                                Address : 부산진구 양정동<br>
+                                Github - <a href="https://github.com/unami1998"> https://github.com/unami1998</a><br>
+                                Notion - <a href="https://www.notion.so/67eb097713ba4af592b53c076ee84cb8">노션주소</a><br>
                     </section>
-                </div>
-
-
-                <!-- Contact section -->
-                <div class="tm-section-wrap">
-                    <div class="tm-parallax" data-parallax="scroll" data-image-src="img/img-04.jpg"></div>
-                    <div id="contact" class="tm-section">
-                        <h2 class="tm-text-primary">연락 많이 주세요!!</h2>
-                        <hr class="mb-5">
-                        <div class="row">
-                            <div class="col-xl-6 tm-contact-col-l mb-4">
-                                <form id="contact-form" action="" method="POST" class="tm-contact-form">
-                                    <div class="form-group">
-                                        <input type="text" name="name" class="form-control rounded-0" placeholder="Name" required />
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" name="email" class="form-control rounded-0" placeholder="Email" required />
-                                    </div>
-                                    <div class="form-group">
-                                        <select class="form-control" id="contact-select" name="inquiry">
-                                            <option value="-">Subject</option>
-                                            <option value="sales">Sales &amp; Marketing</option>
-                                            <option value="creative">Creative Design</option>
-                                            <option value="uiux">UI / UX</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group">
-                                        <textarea rows="8" name="message" class="form-control rounded-0" placeholder="Message" required=></textarea>
-                                    </div>
-            
-                                    <div class="form-group tm-text-right">
-                                        <button type="submit" class="btn btn-primary">Send</button>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="col-xl-6 tm-contact-col-r">
-                                <!-- Map -->
-                                <div class="mapouter mb-4">
-                                    <div class="gmap_canvas">
-                                        <iframe width="100%" height="520" id="gmap_canvas"
-                                            src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                                    </div>
-                                </div>
-                                <!-- Address -->
-                                <address class="mb-4">
-                                    120-240 eget purus luctus sodales. Sed<br>
-                                    auctor odio quis ligula dignissim efficitur<br>
-                                    vitae vitae quam 16502
-                                </address>
-            
-                                <!-- Links -->
-                                <ul class="tm-contact-links mb-4">
-                                    <li class="mb-2">
-                                        <a href="tel:0100200340">
-                                            <i class="fas fa-phone mr-2 tm-contact-link-icon"></i>
-                                            Tel: 010-020-0340
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="mailto:info@company.com">
-                                            <i class="fas fa-at mr-2 tm-contact-link-icon"></i>
-                                            Email: info@company.com
-                                        </a>
-                                    </li>
-                                </ul>
-
-
-
-                                <ul class="tm-contact-social">
-                                    <li><a href="https://fb.com/templatemo" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
-                                    <li><a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="https://instagram.com" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
-                                    <li><a href="https://youtube.com" class="tm-social-link"><i class="fab fa-youtube"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
                 </div>
 
                 <!-- Copyright -->                
                 <div class="tm-section-wrap tm-copyright row">
                     <div class="col-12">
                         <div class="text-right">
-                            Copyright 2020 Upright Company
-                        </div> 
+                            이 사이트는 포트폴리오 용도로 제작했으며 상업적인 용도로 사용하지 않습니다.
+                        </div>
                     </div>
-                </div>                 
+                </div>
             </div> <!-- .tm-main -->                      
         </div> <!-- .row -->
     </div> <!-- .container-fluid -->
