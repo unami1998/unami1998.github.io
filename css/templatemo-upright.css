@@ -29,6 +29,18 @@ a:hover {
 
 .container-fluid { margin-left: 0; }
 
+.custom-btn {
+	display: inline-block;
+	width: 200px; /* 원하는 너비로 조정 */
+	text-align: right;
+	margin-top: 30px; /* 원하는 값으로 조정 */
+}
+
+.text-right {
+	text-align: right;
+}
+
+
 .btn-primary {
 	padding: 12px 50px;
     border-radius: 0;
@@ -209,7 +221,7 @@ hr { border-top: 4px solid #CCC; }
 .tm-img-home-container {
 	width: 250px;
 	height: 500px;
-	background: url(../img/스터디공부.PNG) no-repeat center;
+	background: url(../img/study.jpg) no-repeat center;
 	background-size: cover;
 	margin-right: 0;
 	margin-left: auto;
@@ -233,7 +245,10 @@ hr { border-top: 4px solid #CCC; }
     justify-content: center;
 }
 
-.tm-text-container { max-width: 97%; }
+.tm-text-container {
+	margin-top: 50px;
+	max-width: 97%;
+}
 
 .tm-post-icon {
 	width: 100px;
